@@ -74,6 +74,9 @@ header.header {
       color: #225add;
       outline: none;
     }
+    &:focus {
+      outline: none;
+    }
   }
 }
 input[type="number"]::-webkit-inner-spin-button,

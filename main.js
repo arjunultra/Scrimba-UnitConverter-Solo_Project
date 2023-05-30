@@ -6,7 +6,8 @@ convertBtn.addEventListener("click", function () {
 function getLength() {
   // 1 meter = 3.281 feet
   let oneMeter = 3.281;
-  let oneFeet = 0.304;
   let myMeter = inputValue.value * oneMeter;
   console.log(myMeter);
+  let myFoot = inputValue.value / oneMeter;
+  console.log(Number(myFoot.toFixed(2)));
 }
